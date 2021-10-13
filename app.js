@@ -30,7 +30,6 @@ app.use(express.urlencoded({ extended: true }));
 // });
 
 app.use('/api', require('./routes/nota'));
-// app.use('https://ciclo3-notas-new.herokuapp.com/api', require('./routes/nota'));
 
 // Middleware para vue.js router modo history
 const history = require("connect-history-api-fallback");
